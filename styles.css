@@ -1,0 +1,200 @@
+/* Colores y fondos */
+h1 {
+    color: rgb(255, 0, 0);
+}
+body, div, header, h4 {
+    color: rgb(230, 11, 11);
+}
+header, p {
+    color: rgb(148, 36, 36);
+}
+h1, h2, h3 {
+    background-color: rgb(66, 8, 8);
+}
+body {
+    background-color: rgb(19, 4, 4);
+}
+a {
+    color: rgb(30, 212, 212);
+}
+nav {
+    background-color: rgb(88, 22, 22);
+}
+.comentarios {
+    background-color: rgb(2, 2, 41);
+}
+.bibliografía {
+    background-color: rgb(41, 1, 1);
+}
+
+/* Fuente de letras y tamaños*/
+h1, h2, h3, h4 { 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: normal;
+    text-decoration: underline;
+}
+p, ul, ol {
+    font-size: large;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 30px;
+}
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    font-style: italic;
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Lados y centros */
+nav {
+    text-align: right;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+
+/* Box modeling */
+h1, h2, h3, h4, h5 {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+}
+.blog {
+    background-color: rgb(66, 8, 8);
+    padding: 10px;
+    border-radius: 1rem;
+}
+nav {
+    padding: 30px;
+    border-radius: 1rem;
+    word-spacing: 5px;
+}
+header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+main {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.comentarios {
+    border-radius: 1rem;
+    padding: 60px;
+}
+.EMPRESAR {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bibliografía {
+    border-radius: 1rem;
+    padding: 60px;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3,h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Box modeling de la card */
+h5 {
+    font-size: large;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+.negocios {
+    padding: 40px;
+    text-align: center;
+}
+.contenedor {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    background-color: rgb(209, 77, 0);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 15px;
+}
+.card h5 {
+    color: rgb(36, 4, 110);
+    font-style: italic;
+}
+.card p {
+    margin-bottom: 10px;
+    color: rgb(36, 4, 110);
+    font-style: italic;
+}
+.card button {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+/* Media Query */
+@media(max-width: 992px) {
+    .contenedor {
+        display: block;
+        max-width: 100%;
+    }
+    .card {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
